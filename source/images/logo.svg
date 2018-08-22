@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="193" height="38">
+	<defs>
+		<clipPath id="clip_0">
+			<rect x="-155" y="-12" width="1440" height="3638" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_0)">
+		<text fill="rgb(255,255,255)" stroke="none" font-size="28" font-weight="bold" font-family="Segoe UI" x="0" y="28.302734">
+				SiteGeek
+		</text>
+	</g>
+	<defs>
+		<clipPath id="clip_1">
+			<rect x="-155" y="-12" width="1440" height="3638" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_1)">
+		<text fill="rgb(255,255,255)" stroke="none" font-size="28" font-weight="bold" font-family="Segoe UI Semibold, Segoe UI" x="115.55469" y="28.302734">
+				.com
+		</text>
+	</g>
+	<defs>
+		<clipPath id="clip_2">
+			<rect x="-155" y="-12" width="1440" height="3638" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_2)">
+		<text fill="rgb(255,255,255)" stroke="none" transform="translate(185 6)" font-size="10" font-family="Segoe UI" x="0" y="10.000977">
+				®
+		</text>
+	</g>
+</svg>

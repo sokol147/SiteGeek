@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83" height="20">
+	<defs>
+		<clipPath id="clip_0">
+			<rect x="-1135.2413" y="-369.93958" width="1432.9441" height="3620.1738" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_0)">
+		<text fill="rgb(3,39,119)" stroke="none" transform="matrix(0.9951 0 0 0.9951 0.167786 0.237671)" font-size="15" font-family="Segoe UI" x="0" y="15.251465">
+				SSD 
+		</text>
+	</g>
+	<defs>
+		<clipPath id="clip_1">
+			<rect x="-1135.2413" y="-369.93958" width="1432.9441" height="3620.1738" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_1)">
+		<text fill="rgb(3,39,119)" stroke="none" transform="matrix(0.9951 0 0 0.9951 0.167786 0.237671)" font-size="15" font-family="Segoe UI" x="30.563965" y="15.251465">
+				Hosting
+		</text>
+	</g>
+</svg>

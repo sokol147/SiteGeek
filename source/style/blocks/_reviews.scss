@@ -1,0 +1,61 @@
+.last-reviews{
+	.item{
+		box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+		background-color: #fff;
+		border-radius: 5px;
+		&__logo{
+			max-width: 100%;
+			display: block;
+			margin: 0 auto;
+		}
+		&__link{
+			color: $lightBlue;
+			font-size: 14px;
+			display: block;
+			text-align: center;
+		}
+		&__desc{
+			border-top: 1px solid $lightBorder;
+		}
+		&__name{
+			color: #000;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		&__btn{
+			height: 35px;
+			width: 100%;
+			line-height: 35px;
+			color: #fff;
+			background-color: $lightBlue;
+			display: inline-block;
+			border-radius: 5px;
+			text-align: center;
+			font-weight: bold;
+			transition: .3s;
+			&:hover{
+				text-decoration: none;
+				background-color: darken($lightBlue, 10%)
+			}
+		}
+		&__rating{
+			i{
+				color: $lightBorder;
+				&.active,&:hover{
+					color: yellow;
+				}
+			}
+		}
+		&__price{
+			color: $textGrey;
+			span{
+				font-weight: bold;
+			}
+		}
+	}
+}
+.section__header{
+	font-size: 21px;
+	font-weight: normal;
+	color: $headerGrey;
+}

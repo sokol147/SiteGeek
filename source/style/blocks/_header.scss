@@ -1,0 +1,36 @@
+.header{
+	.dropdown-toggle{
+		&:after{
+			vertical-align: 0.155em;
+		}
+	}
+	.nav-link{
+		color: #fff !important;
+	}
+	background-color: $deepBlue;
+	&__search{
+		position: relative;
+		&-input{
+			background-color: transparent !important;
+			width: 210px;
+			height: 31px;
+			border: 1px solid $headerBorder !important;
+		}
+		&-btn{
+			position: absolute;
+			width: 34px;
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
+			border: none;
+			border-left: 1px solid $headerBorder !important;
+			background-color: transparent;
+			&:hover{
+				cursor: pointer;
+			}
+			img{
+				vertical-align: baseline;
+			}
+		}
+	}
+}
