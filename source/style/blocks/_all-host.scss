@@ -1,0 +1,20 @@
+.all-hosting{
+	font-size: 14px;
+	background-color: #f1f1f1;
+	background-color: rgba(255, 255, 255, .67);
+	border-top: 1px solid $lightBorder;
+	.type{
+		&__link{
+			color: $sideMenuColor;
+		}
+	}
+	.sorted-by{
+		&__item{
+			width: 20%;
+		}
+		&__title{
+			font-weight: bold;
+			color: $sideMenuColor;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.best{
+	background: $purpleBG url(../images/best-bg.png) no-repeat bottom right;
+	.best__descr{
+		color: #fff;
+	}
+	.descr__text{
+		font-size: 15px;
+	}
+}
+.section__sub{
+	font-size: 21px;
+	font-weight: normal;
+}
+.star-choise{
+	position: absolute;
+	top: -4px;
+	right: 7px;
+}

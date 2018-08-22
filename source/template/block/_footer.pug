@@ -1,0 +1,35 @@
+- var main = ['Start Here','Hosting Reviews','Best Hosting','Compare Hosting','Resources','Blog']
+- var site = ['Home','About  Us','Contact','Privacy & Terms','Sitemap']
+footer.footer.py-5
+	.container
+		.row
+			.col-4
+				a(href='/index.html').home__link.mb-3 SITEGEEK.com
+				p.footer__descr SiteGeek.com is a webmaster tool that lets you discover which web host any site is hosted with. 
+				ul.social.d-flex
+					li.social__item.mr-2
+						a(href='#').social__link
+							img(src='/templates/images/fb-icon.png')
+					li.social__item
+						a(href='#').social__link
+							img(src='/templates/images/tw-icon.png')
+			.col-4
+				.row
+					.col-6
+						.site-nav__item
+							ul.main
+								each item in main
+									li.main__item
+										a.main__link(href='#')= item
+					.col-6
+						.site-nav__item
+							ul.main
+								each item in site
+									li.main__item
+										a.main__link(href='#')= item
+			.col-4
+				.sign-up-form.footer-form
+					.footer-form__header.mb-3 Signup for greatest Hosting deals!
+					form.inline-form.footer-form__form
+						input(type='text' placeholder='Email address').form-control.footer-form__input
+						a(href='#').footer-form__btn Sign Up

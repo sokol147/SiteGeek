@@ -1,4 +1,5 @@
 .main-section{
+	background-color: #F6F6F6;
 	.search{
 		position: relative;
 		&__input{
@@ -34,6 +35,9 @@
 		border-radius: 0 0 5px 5px;
 		background-color: #fff;
 		padding-top: 2px;
+		&__text{
+			line-height: 25px;
+		}
 		&__link{
 			color: $bannerNav;
 			font-size: 15px;

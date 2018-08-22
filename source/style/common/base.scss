@@ -1,6 +1,7 @@
 body, html{
 	margin:0;
 	height: 100%;
+	font-family: CircularStd-Medium !important;
 }
 html{
 	font-size: 16px;
@@ -21,8 +22,8 @@ ul,li{
 	padding: 0;
 }
 body{
-	background-color: #F6F6F6 !important;
 	margin: 0 !important;
+	background-color: #F6F6F6;
 }
 
 $lightBorder: #EAEAEA;
@@ -35,3 +36,9 @@ $btnGreen: #3DB770;
 $bannerNav: #032777;
 $textGrey: #4A4A4A;
 $headerGrey: #3B3F42;
+$purpleBG: #713B81;
+$orangeBG: #F27200;
+$sideMenuColor: #343940;
+$articleDescr: #9B9B9B;
+$sectionBG: #f1f1f1;
+$copyrightText: #B3B1B1;

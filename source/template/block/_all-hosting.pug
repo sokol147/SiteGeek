@@ -1,0 +1,43 @@
+- var listOne = ['Web hosting','Cloud hosting','Shared hosting','Managed hosting','SSD hosting','VPS hosting','Reseller hosting','Dedicated hosting']
+- var listTwo = ['Wordpress Hosting','Drupal Hosting','Magento Hosting','Joomla Hosting']
+- var listThree = ['Corporate Website Hosting','Blog Hosting','Ecommerce Hosting','Application Hosting','Forum Hosting']
+- var listFour = ['Adult Hosting','Casino Hosting','Cryptocurrency Hosting','Startup Hosting']
+- var listFive = ['Linux Hosting','Windows Hosting']
+section.all-hosting.pt-5.pb-4
+	.container
+		.row
+			.col-12
+				h3.section__header.mb-4 All Web Hosting companies 
+		.row
+			.col-12
+				ul.sorted-by__list.d-flex
+					li.sorted-by__item
+						p.sorted-by__title.mb-1 By Type & Features
+						ul.sorted-by__type.type__list
+							each item in listOne
+								li.type__item
+									a(href='#').type__link= item
+					li.sorted-by__item
+						p.sorted-by__title.mb-1 By Website Builder & CMS
+						ul.sorted-by__type.type__list
+							each item in listTwo
+								li.type__item
+									a(href='#').type__link= item
+					li.sorted-by__item
+						p.sorted-by__title.mb-1 By Website & Project Type
+						ul.sorted-by__type.type__list
+							each item in listThree
+								li.type__item
+									a(href='#').type__link= item
+					li.sorted-by__item
+						p.sorted-by__title.mb-1 By Niche
+						ul.sorted-by__type.type__list
+							each item in listFour
+								li.type__item
+									a(href='#').type__link= item
+					li.sorted-by__item
+						p.sorted-by__title.mb-1 By Operating System
+						ul.sorted-by__type.type__list
+							each item in listFive
+								li.type__item
+									a(href='#').type__link= item

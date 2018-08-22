@@ -1,0 +1,9 @@
+.copyright{
+	background-color: $sideMenuColor;
+	color: #fff;
+	font-size: 14px;
+	&__text{
+		color: $copyrightText;
+		font-size: 12px;
+	}
+}
