@@ -45,3 +45,23 @@
 		}
 	}
 }
+@media (max-width: 991px) and (min-width: 768px){
+	.footer{
+		.footer-form__input{
+			margin-bottom: 10px;
+		}
+		.footer-form__btn{
+			position: inherit;
+			display: block;
+			border-radius: 5px;
+			width: 100%;
+		}
+	}
+}
+@media (max-width: 410px){
+	.footer{
+		.footer-form__header{
+			font-size: 16px;
+		}
+	}
+}

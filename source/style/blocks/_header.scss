@@ -34,3 +34,13 @@
 		}
 	}
 }
+@media(max-width: 1200px){
+	.header{
+		.navbar{
+			font-size: 13px;
+		}
+		.navbar-brand{
+			margin-right: 0px;
+		}
+	}
+}

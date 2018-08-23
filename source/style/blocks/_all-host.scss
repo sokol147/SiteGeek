@@ -18,3 +18,35 @@
 		}
 	}
 }
+
+@media(max-width: 992px){
+	.all-hosting{
+		.sorted-by__item{
+			width: 25%;
+		}
+	}
+}
+@media(max-width: 769px){
+	.all-hosting{
+		.sorted-by__item{
+			width: 33.33%;
+		}
+	}
+}
+@media(max-width: 576px){
+	.all-hosting{
+		.sorted-by__item{
+			width: 50%;
+		}
+	}
+}
+@media(max-width: 400px){
+	.all-hosting{
+		.sorted-by__item{
+			width: 100%;
+		}
+		.type__list{
+			display: none;
+		}
+	}
+}
